@@ -58,6 +58,6 @@
 
 
 
-维护人: ToGoRun
+维护人: [ToGoRun](https://github.com/ToGoRun/nrf52832_test/tree/master)
 
 -  
