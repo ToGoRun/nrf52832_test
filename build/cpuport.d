@@ -1,0 +1,12 @@
+.\build\cpuport.o: rt-thread\libcpu\arm\cortex-m4\cpuport.c
+.\build\cpuport.o: rt-thread\include\rtthread.h
+.\build\cpuport.o: .\rtconfig.h
+.\build\cpuport.o: rt-thread\include\rtdebug.h
+.\build\cpuport.o: rt-thread\include\rtdef.h
+.\build\cpuport.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\cpuport.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\cpuport.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\cpuport.o: rt-thread\include\rtservice.h
+.\build\cpuport.o: rt-thread\include\rtm.h
+.\build\cpuport.o: rt-thread\include\rtthread.h
+.\build\cpuport.o: rt-thread\components\finsh\finsh.h

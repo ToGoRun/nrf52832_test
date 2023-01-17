@@ -1,0 +1,15 @@
+.\build\cstdlib.o: rt-thread\components\libc\compilers\common\cstdlib.c
+.\build\cstdlib.o: rt-thread\include\rtthread.h
+.\build\cstdlib.o: .\rtconfig.h
+.\build\cstdlib.o: rt-thread\include\rtdebug.h
+.\build\cstdlib.o: rt-thread\include\rtdef.h
+.\build\cstdlib.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\cstdlib.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\cstdlib.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\cstdlib.o: rt-thread\include\rtservice.h
+.\build\cstdlib.o: rt-thread\include\rtm.h
+.\build\cstdlib.o: rt-thread\include\rtthread.h
+.\build\cstdlib.o: rt-thread\components\finsh\finsh.h
+.\build\cstdlib.o: rt-thread\include\rtdbg.h
+.\build\cstdlib.o: rt-thread\components\utilities\ulog\ulog.h
+.\build\cstdlib.o: rt-thread\components\utilities\ulog\ulog_def.h

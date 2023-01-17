@@ -1,0 +1,13 @@
+.\build\msh_parse.o: rt-thread\components\finsh\msh_parse.c
+.\build\msh_parse.o: rt-thread\include\rtthread.h
+.\build\msh_parse.o: .\rtconfig.h
+.\build\msh_parse.o: rt-thread\include\rtdebug.h
+.\build\msh_parse.o: rt-thread\include\rtdef.h
+.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\msh_parse.o: rt-thread\include\rtservice.h
+.\build\msh_parse.o: rt-thread\include\rtm.h
+.\build\msh_parse.o: rt-thread\include\rtthread.h
+.\build\msh_parse.o: rt-thread\components\finsh\finsh.h
+.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h

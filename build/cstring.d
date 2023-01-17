@@ -1,0 +1,16 @@
+.\build\cstring.o: rt-thread\components\libc\compilers\common\cstring.c
+.\build\cstring.o: rt-thread\components\libc\compilers\common\include\posix/string.h
+.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\cstring.o: rt-thread\include\rtthread.h
+.\build\cstring.o: .\rtconfig.h
+.\build\cstring.o: rt-thread\include\rtdebug.h
+.\build\cstring.o: rt-thread\include\rtdef.h
+.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\cstring.o: rt-thread\include\rtservice.h
+.\build\cstring.o: rt-thread\include\rtm.h
+.\build\cstring.o: rt-thread\include\rtthread.h
+.\build\cstring.o: rt-thread\components\finsh\finsh.h
+.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

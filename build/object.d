@@ -1,0 +1,13 @@
+.\build\object.o: rt-thread\src\object.c
+.\build\object.o: rt-thread\include\rtthread.h
+.\build\object.o: .\rtconfig.h
+.\build\object.o: rt-thread\include\rtdebug.h
+.\build\object.o: rt-thread\include\rtdef.h
+.\build\object.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\object.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\object.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\object.o: rt-thread\include\rtservice.h
+.\build\object.o: rt-thread\include\rtm.h
+.\build\object.o: rt-thread\include\rtthread.h
+.\build\object.o: rt-thread\components\finsh\finsh.h
+.\build\object.o: rt-thread\include\rthw.h

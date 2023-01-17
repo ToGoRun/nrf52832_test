@@ -1,0 +1,13 @@
+.\build\scheduler.o: rt-thread\src\scheduler.c
+.\build\scheduler.o: rt-thread\include\rtthread.h
+.\build\scheduler.o: .\rtconfig.h
+.\build\scheduler.o: rt-thread\include\rtdebug.h
+.\build\scheduler.o: rt-thread\include\rtdef.h
+.\build\scheduler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\scheduler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\scheduler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\scheduler.o: rt-thread\include\rtservice.h
+.\build\scheduler.o: rt-thread\include\rtm.h
+.\build\scheduler.o: rt-thread\include\rtthread.h
+.\build\scheduler.o: rt-thread\components\finsh\finsh.h
+.\build\scheduler.o: rt-thread\include\rthw.h

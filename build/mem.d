@@ -1,0 +1,13 @@
+.\build\mem.o: rt-thread\src\mem.c
+.\build\mem.o: rt-thread\include\rthw.h
+.\build\mem.o: rt-thread\include\rtthread.h
+.\build\mem.o: .\rtconfig.h
+.\build\mem.o: rt-thread\include\rtdebug.h
+.\build\mem.o: rt-thread\include\rtdef.h
+.\build\mem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\mem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\build\mem.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\mem.o: rt-thread\include\rtservice.h
+.\build\mem.o: rt-thread\include\rtm.h
+.\build\mem.o: rt-thread\include\rtthread.h
+.\build\mem.o: rt-thread\components\finsh\finsh.h
