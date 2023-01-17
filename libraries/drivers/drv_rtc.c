@@ -112,7 +112,7 @@ const static struct rt_device_ops rtc_ops =
 };
 #endif
 
-static rt_err_t rt_hw_rtc_register(rt_device_t device, const char *name, rt_uint32_t flag)
+static rt_err_t reset_rt_hw_rtc_register(rt_device_t device, const char *name, rt_uint32_t flag)
 {
     struct tm time_new = ONCHIP_RTC_TIME_DEFAULT;
 
@@ -147,7 +147,7 @@ static rt_err_t rt_hw_rtc_register(rt_device_t device, const char *name, rt_uint
 int rt_hw_rtc_init(void)
 {
     rt_err_t result;
-    result = rt_hw_rtc_register(&rtc, "rtc", RT_DEVICE_FLAG_RDWR);
+    result = reset_rt_hw_rtc_register(&rtc, "rtc", RT_DEVICE_FLAG_RDWR);
     if (result != RT_EOK)
     {
         LOG_E("rtc register err code: %d", result);
