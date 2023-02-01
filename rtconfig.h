@@ -67,6 +67,10 @@
 #define MSH_USING_BUILT_IN_COMMANDS
 #define FINSH_USING_DESCRIPTION
 #define FINSH_ARG_MAX 10
+#define RT_USING_FAL
+#define FAL_DEBUG_CONFIG
+#define FAL_DEBUG 1
+#define FAL_PART_HAS_TABLE_CFG
 
 /* Device Drivers */
 
@@ -74,9 +78,14 @@
 #define RT_USING_SERIAL
 #define RT_USING_SERIAL_V1
 #define RT_SERIAL_RB_BUFSZ 64
+#define RT_USING_HWTIMER
 #define RT_USING_PIN
+#define RT_USING_ADC
 #define RT_USING_PWM
 #define RT_USING_RTC
+#define RT_USING_SPI
+#define RT_USING_SFUD
+#define RT_SFUD_SPI_MAX_HZ 40000000
 #define RT_USING_WDT
 
 /* Using USB */
@@ -111,9 +120,13 @@
 
 #define ULOG_USING_COLOR
 #define ULOG_OUTPUT_TIME
+#define ULOG_TIME_USING_TIMESTAMP
 #define ULOG_OUTPUT_LEVEL
 #define ULOG_OUTPUT_TAG
 #define ULOG_BACKEND_USING_CONSOLE
+
+/* RT-Thread Utestcases */
+
 
 /* RT-Thread online packages */
 
@@ -249,6 +262,8 @@
 
 #define BSP_USING_GPIO
 #define NRFX_GPIOTE_ENABLED 1
+#define BSP_USING_SAADC
+#define NRFX_SAADC_ENABLED 1
 #define BSP_USING_PWM
 #define NRFX_PWM_ENABLED 1
 #define BSP_USING_PWM0
@@ -264,6 +279,14 @@
 #define NRFX_UART0_ENABLED 1
 #define BSP_UART0_RX_PIN 8
 #define BSP_UART0_TX_PIN 6
+#define BSP_USING_SPI
+#define NRFX_SPI_ENABLED 1
+#define BSP_USING_SPI0
+#define BSP_SPI0_SCK_PIN 3
+#define BSP_SPI0_MOSI_PIN 2
+#define BSP_SPI0_MISO_PIN 28
+#define BSP_SPI0_SS_PIN 29
+#define BSP_USING_ON_CHIP_FLASH
 
 /* On-chip flash config */
 
@@ -280,6 +303,20 @@
 #define NRFX_RTC0_ENABLED 1
 #define NRFX_RTC2_ENABLED 1
 #define RTC_INSTANCE_ID 2
+#define BSP_USING_RNG
+#define NRFX_RNG_ENABLED 1
+#define BSP_USING_TIM
+#define NRFX_TIMER_ENABLED 1
+#define BSP_USING_TIM0
+#define NRFX_TIMER0_ENABLED 1
+#define BSP_USING_TIM1
+#define NRFX_TIMER1_ENABLED 1
+#define BSP_USING_TIM2
+#define NRFX_TIMER2_ENABLED 1
+#define BSP_USING_TIM3
+#define NRFX_TIMER3_ENABLED 1
+#define BSP_USING_TIM4
+#define NRFX_TIMER4_ENABLED 1
 #define BLE_STACK_USING_NULL
 
 #endif
