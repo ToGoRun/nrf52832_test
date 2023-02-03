@@ -164,7 +164,7 @@ static rt_err_t nrf5x_get_adc_value(struct rt_adc_device *device, rt_uint32_t ch
         err_code = nrfx_saadc_mode_trigger();
         while(results.done == 0)
         {
-            rt_kprintf("wait......\n");
+            ;
         }
         * value = results.result_buffer[channel];
         results.done = 0;

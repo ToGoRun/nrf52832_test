@@ -42,7 +42,7 @@ typedef struct
     nrfx_saadc_channel_t    channels[8];
     uint8_t                 channel_count;
     nrf_saadc_value_t       result_buffer[8];
-    uint8_t                 done;
+    volatile uint8_t                 done;
 } drv_nrfx_saadc_result_t;
 
 #endif /* __DRV_ADC_H__ */
