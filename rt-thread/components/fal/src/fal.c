@@ -50,7 +50,6 @@ __exit:
 
     return result;
 }
-INIT_BOARD_EXPORT(fal_init);
 
 /**
  * Check if the FAL is initialized successfully
