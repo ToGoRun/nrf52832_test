@@ -5,7 +5,7 @@
 #include "fal.h"
 #include <rtconfig.h>
 #include <board.h>
-
+#include "fal.h"
 
 
 
@@ -13,6 +13,7 @@
 
 static int flash_sample(int argc, char *argv[])
 {
+    fal_init();
     const uint8_t test_flash[] = "hello flash test";
     const struct fal_partition* partition_table = fal_partition_find(ON_CHIP_OTHER_NAME);
     uint8_t read_data[17];
