@@ -3,6 +3,7 @@
 #include "drv_spi.h"
 #include "spi_flash_sfud.h"
 #include "nrf_spim.h"
+#include "string.h"
 
 struct rt_spi_device *spi_dev_w25q;     /* SPI 设备句柄 */
 
@@ -182,30 +183,31 @@ static int spi_flash_sample(int argc, char *argv[])
         return RT_ERROR;
     }
 
-    if (RT_NULL == rt_sfud_flash_probe("W25Q16", "spi00"))
-    {
-        return -RT_ERROR;
-    };
+    // if (RT_NULL == rt_sfud_flash_probe("W25Q16", "spi00"))
+    // {
+    //     return -RT_ERROR;
+    // };
 
     /* config spi */
     {
         struct rt_spi_configuration cfg;
         cfg.data_width = 8;
         cfg.mode = RT_SPI_MODE_0 | RT_SPI_MSB; /* SPI Compatible Modes 0 */
-        cfg.max_hz = 4 * 1000 * 1000; /* SPI Interface with Clock Speeds Up to 20 MHz */
-        rt_spi_configure(spi_device, &cfg);
+        cfg.max_hz = 4000000; /* SPI Interface with Clock Speeds Up to 4 MHz */
+        /* 查找 spi 设备获取设备句柄 */
+        spi_dev_w25q = (struct rt_spi_device *)rt_device_find(spi_device_name);
+        rt_spi_configure(spi_dev_w25q, &cfg);
     } /* config spi */
 
-    /* 查找 spi 设备获取设备句柄 */
-    spi_dev_w25q = (struct rt_spi_device *)rt_device_find(spi_device_name);
+    
 
     SPIFlash_Erase_Sector(0,0);	 //写之前必须先擦除
     rt_thread_mdelay(100);
-    SpiFlash_Write_Page(Tx_Buffer,0x00,5);//写入5个字节数据
+    SpiFlash_Write_Page(Tx_Buffer,0x00,9);//写入5个字节数据
     rt_kprintf("write char data: %s\n", Tx_Buffer);
     for(int i=0;i<10;i++)
         Rx_Buffer[i] = 0;
-    SpiFlash_Read(Rx_Buffer,0x00,5);      //读出5个字节数据
+    SpiFlash_Read(Rx_Buffer,0x00,9);      //读出5个字节数据
     rt_kprintf("read char data: %s\n", Rx_Buffer);
 
 }
