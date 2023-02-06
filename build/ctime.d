@@ -1,37 +1,38 @@
-.\build\ctime.o: rt-thread\components\libc\compilers\common\ctime.c
-.\build\ctime.o: rt-thread\components\libc\compilers\common\include\sys/time.h
-.\build\ctime.o: .\rtconfig.h
-.\build\ctime.o: rt-thread\components\libc\compilers\common\extension\sys/types.h
-.\build\ctime.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\ctime.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\ctime.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
-.\build\ctime.o: rt-thread\components\libc\compilers\common\extension\sys/errno.h
-.\build\ctime.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
-.\build\ctime.o: rt-thread\include\rtthread.h
-.\build\ctime.o: rt-thread\include\rtdebug.h
-.\build\ctime.o: rt-thread\include\rtdef.h
-.\build\ctime.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\ctime.o: rt-thread\include\rtservice.h
-.\build\ctime.o: rt-thread\include\rtm.h
-.\build\ctime.o: rt-thread\include\rtthread.h
-.\build\ctime.o: rt-thread\components\finsh\finsh.h
-.\build\ctime.o: rt-thread\include\rthw.h
-.\build\ctime.o: rt-thread\components\libc\compilers\common\include\unistd.h
-.\build\ctime.o: rt-thread\components\libc\compilers\common\include\sys/unistd.h
-.\build\ctime.o: rt-thread\components\drivers\include\rtdevice.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/ringbuffer.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/completion.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/dataqueue.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/workqueue.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/waitqueue.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/pipe.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/poll.h
-.\build\ctime.o: rt-thread\components\drivers\include\ipc/ringblk_buf.h
-.\build\ctime.o: rt-thread\components\drivers\include\drivers/rtc.h
-.\build\ctime.o: rt-thread\components\drivers\include\drivers/serial.h
-.\build\ctime.o: rt-thread\components\drivers\include\drivers/watchdog.h
-.\build\ctime.o: rt-thread\components\drivers\include\drivers/pin.h
-.\build\ctime.o: rt-thread\components\drivers\include\drivers/rt_drv_pwm.h
-.\build\ctime.o: rt-thread\include\rtdbg.h
-.\build\ctime.o: rt-thread\components\utilities\ulog\ulog.h
-.\build\ctime.o: rt-thread\components\utilities\ulog\ulog_def.h
+./build/ctime.o: rt-thread\components\libc\compilers\common\ctime.c \
+  rt-thread\components\libc\compilers\common\include\sys\time.h \
+  rtconfig.h \
+  rt-thread\components\libc\compilers\common\extension\sys\types.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h \
+  rt-thread\components\libc\compilers\common\extension\sys\errno.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\errno.h \
+  rt-thread\include\rtthread.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h rt-thread\include\rthw.h \
+  rt-thread\components\libc\compilers\common\include\unistd.h \
+  rt-thread\components\libc\compilers\common\include\sys\unistd.h \
+  rt-thread\components\drivers\include\rtdevice.h \
+  rt-thread\components\drivers\include\ipc\ringbuffer.h \
+  rt-thread\components\drivers\include\ipc\completion.h \
+  rt-thread\components\drivers\include\ipc\dataqueue.h \
+  rt-thread\components\drivers\include\ipc\workqueue.h \
+  rt-thread\components\drivers\include\ipc\waitqueue.h \
+  rt-thread\components\drivers\include\ipc\pipe.h \
+  rt-thread\components\drivers\include\ipc\poll.h \
+  rt-thread\components\drivers\include\ipc\ringblk_buf.h \
+  rt-thread\components\drivers\include\drivers\rtc.h \
+  rt-thread\components\drivers\include\drivers\spi.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  rt-thread\components\drivers\include\drivers\serial.h \
+  rt-thread\components\drivers\include\drivers\watchdog.h \
+  rt-thread\components\drivers\include\drivers\pin.h \
+  rt-thread\components\drivers\include\drivers\hwtimer.h \
+  rt-thread\components\drivers\include\drivers\adc.h \
+  rt-thread\components\drivers\include\drivers\rt_drv_pwm.h \
+  rt-thread\components\drivers\include\drivers\pm.h \
+  rt-thread\components\drivers\include\drivers\lptimer.h \
+  rt-thread\include\rtdbg.h rt-thread\components\utilities\ulog\ulog.h \
+  rt-thread\components\utilities\ulog\ulog_def.h

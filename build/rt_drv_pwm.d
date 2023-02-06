@@ -1,31 +1,32 @@
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\misc\rt_drv_pwm.c
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\rtdevice.h
-.\build\rt_drv_pwm.o: rt-thread\include\rtthread.h
-.\build\rt_drv_pwm.o: .\rtconfig.h
-.\build\rt_drv_pwm.o: rt-thread\include\rtdebug.h
-.\build\rt_drv_pwm.o: rt-thread\include\rtdef.h
-.\build\rt_drv_pwm.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\rt_drv_pwm.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\rt_drv_pwm.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\rt_drv_pwm.o: rt-thread\include\rtservice.h
-.\build\rt_drv_pwm.o: rt-thread\include\rtm.h
-.\build\rt_drv_pwm.o: rt-thread\include\rtthread.h
-.\build\rt_drv_pwm.o: rt-thread\components\finsh\finsh.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/ringbuffer.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/completion.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/dataqueue.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/workqueue.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/waitqueue.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/pipe.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/poll.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\ipc/ringblk_buf.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\drivers/rtc.h
-.\build\rt_drv_pwm.o: rt-thread\components\libc\compilers\common\include\sys/time.h
-.\build\rt_drv_pwm.o: rt-thread\components\libc\compilers\common\extension\sys/types.h
-.\build\rt_drv_pwm.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\drivers/serial.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\drivers/watchdog.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\drivers/pin.h
-.\build\rt_drv_pwm.o: rt-thread\components\drivers\include\drivers/rt_drv_pwm.h
-.\build\rt_drv_pwm.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\build\rt_drv_pwm.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+./build/rt_drv_pwm.o: rt-thread\components\drivers\misc\rt_drv_pwm.c \
+  rt-thread\components\drivers\include\rtdevice.h \
+  rt-thread\include\rtthread.h rtconfig.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  rt-thread\components\drivers\include\ipc\ringbuffer.h \
+  rt-thread\components\drivers\include\ipc\completion.h \
+  rt-thread\components\drivers\include\ipc\dataqueue.h \
+  rt-thread\components\drivers\include\ipc\workqueue.h \
+  rt-thread\components\drivers\include\ipc\waitqueue.h \
+  rt-thread\components\drivers\include\ipc\pipe.h \
+  rt-thread\components\drivers\include\ipc\poll.h \
+  rt-thread\components\drivers\include\ipc\ringblk_buf.h \
+  rt-thread\components\drivers\include\drivers\rtc.h \
+  rt-thread\components\libc\compilers\common\include\sys\time.h \
+  rt-thread\components\libc\compilers\common\extension\sys\types.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h \
+  rt-thread\components\drivers\include\drivers\spi.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  rt-thread\components\drivers\include\drivers\serial.h \
+  rt-thread\components\drivers\include\drivers\watchdog.h \
+  rt-thread\components\drivers\include\drivers\pin.h \
+  rt-thread\components\drivers\include\drivers\hwtimer.h \
+  rt-thread\components\drivers\include\drivers\adc.h \
+  rt-thread\components\drivers\include\drivers\rt_drv_pwm.h \
+  rt-thread\components\drivers\include\drivers\pm.h \
+  rt-thread\components\drivers\include\drivers\lptimer.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h

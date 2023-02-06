@@ -65,6 +65,7 @@ static int uart_sample(int argc, char *argv[]){
     /* 如果获得线程控制块，启动这个线程 */
     if (uart_receive != RT_NULL)
         rt_thread_startup(uart_receive);
+    return RT_EOK;
 
 }
 /* 导出到 msh 命令列表中 */

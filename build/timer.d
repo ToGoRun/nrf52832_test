@@ -1,13 +1,7 @@
-.\build\timer.o: rt-thread\src\timer.c
-.\build\timer.o: rt-thread\include\rtthread.h
-.\build\timer.o: .\rtconfig.h
-.\build\timer.o: rt-thread\include\rtdebug.h
-.\build\timer.o: rt-thread\include\rtdef.h
-.\build\timer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\timer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\timer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\timer.o: rt-thread\include\rtservice.h
-.\build\timer.o: rt-thread\include\rtm.h
-.\build\timer.o: rt-thread\include\rtthread.h
-.\build\timer.o: rt-thread\components\finsh\finsh.h
-.\build\timer.o: rt-thread\include\rthw.h
+./build/timer.o: rt-thread\src\timer.c rt-thread\include\rtthread.h \
+  rtconfig.h rt-thread\include\rtdebug.h rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h rt-thread\include\rthw.h

@@ -1,13 +1,9 @@
-.\build\msh_parse.o: rt-thread\components\finsh\msh_parse.c
-.\build\msh_parse.o: rt-thread\include\rtthread.h
-.\build\msh_parse.o: .\rtconfig.h
-.\build\msh_parse.o: rt-thread\include\rtdebug.h
-.\build\msh_parse.o: rt-thread\include\rtdef.h
-.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\msh_parse.o: rt-thread\include\rtservice.h
-.\build\msh_parse.o: rt-thread\include\rtm.h
-.\build\msh_parse.o: rt-thread\include\rtthread.h
-.\build\msh_parse.o: rt-thread\components\finsh\finsh.h
-.\build\msh_parse.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+./build/msh_parse.o: rt-thread\components\finsh\msh_parse.c \
+  rt-thread\include\rtthread.h rtconfig.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\ctype.h

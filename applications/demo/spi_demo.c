@@ -210,6 +210,8 @@ static int spi_flash_sample(int argc, char *argv[])
     SpiFlash_Read(Rx_Buffer,0x00,9);      //读出5个字节数据
     rt_kprintf("read char data: %s\n", Rx_Buffer);
 
+    return RT_EOK;
+
 }
 /* 导出到 msh 命令列表中 */
 MSH_CMD_EXPORT(spi_flash_sample, sample);

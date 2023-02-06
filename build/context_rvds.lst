@@ -369,17 +369,15 @@ ARM Macro Assembler    Page 6
               E000ED20 
               FFFF0000 
               E000ED08 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\build\context_rvds.d -o.\build\context_rvds.o -ID:\RT-ThreadS
-tudio\workspace\rtt_nrf52832_qingfeng\RTE -ID:\APPDATA\ARM\PACK\NordicSemicondu
-ctor\nRF_DeviceFamilyPack\8.32.1\Device\Include -ID:\Keil_v5\ARM\CMSIS\Include 
---predefine="__UVISION_VERSION SETA 518" --predefine="NRF52832_XXAA SETA 1" --c
-preproc_opts=-DBLE_STACK_SUPPORT_REQD,-DNRF_SD_BLE_API_VERSION=4,-DS132,-DSOFTD
-EVICE_PRESENT,-DSWI_DISABLE0,-DCONFIG_GPIO_AS_PINRESET,-DNRF52,-DNRF52832_XXAA,
--DNRF52_PAN_12,-DNRF52_PAN_15,-DNRF52_PAN_20,-DNRF52_PAN_31,-DNRF52_PAN_36,-DNR
-F52_PAN_51,-DNRF52_PAN_54,-DNRF52_PAN_55,-DNRF52_PAN_58,-DNRF52_PAN_64,-DNRF52_
-PAN_74 --list=.\build\context_rvds.lst rt-thread\libcpu\arm\cortex-m4\context_r
-vds.S
+Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M4.fp.sp 
+--depend=.\build\context_rvds.d -o.\build\context_rvds.o -ID:\APPDATA\Arm\PACK\
+NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include --predefine="__U
+VISION_VERSION SETA 538" --predefine="NRF52832_XXAA SETA 1" --cpreproc_opts=-DB
+LE_STACK_SUPPORT_REQD,-DNRF_SD_BLE_API_VERSION=4,-DS132,-DSOFTDEVICE_PRESENT,-D
+SWI_DISABLE0,-DCONFIG_GPIO_AS_PINRESET,-DNRF52,-DNRF52832_XXAA,-DNRF52_PAN_12,-
+DNRF52_PAN_15,-DNRF52_PAN_20,-DNRF52_PAN_31,-DNRF52_PAN_36,-DNRF52_PAN_51,-DNRF
+52_PAN_54,-DNRF52_PAN_55,-DNRF52_PAN_58,-DNRF52_PAN_64,-DNRF52_PAN_74 --list=.\
+build\context_rvds.lst rt-thread\libcpu\arm\cortex-m4\context_rvds.S
 
 
 

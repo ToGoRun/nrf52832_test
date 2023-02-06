@@ -419,6 +419,26 @@ menu "On-chip Peripheral Drivers"
             default 2
     endif
 
+    config BSP_USING_RNG
+        bool "Enable RNG"
+        select RT_USING_RNG
+        default n
+    if BSP_USING_RNG
+        config NRFX_RNG_ENABLED
+        int
+        default 1
+    endif
+
+    config BSP_USING_PM
+        bool "Enable PM"
+        select RT_USING_PM
+        default n
+    if BSP_USING_PM
+        config NRFX_POWER_ENABLED
+        int
+        default 1
+    endif
+
     config BSP_USING_TIM
         bool "Enable TIMER"
         select RT_USING_HWTIMER

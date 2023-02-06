@@ -1,1 +1,1 @@
-.\build\div0.o: rt-thread\libcpu\arm\common\div0.c
+./build/div0.o: rt-thread\libcpu\arm\common\div0.c

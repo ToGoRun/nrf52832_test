@@ -1,17 +1,11 @@
-.\build\shell.o: rt-thread\components\finsh\shell.c
-.\build\shell.o: rt-thread\include\rthw.h
-.\build\shell.o: rt-thread\include\rtthread.h
-.\build\shell.o: .\rtconfig.h
-.\build\shell.o: rt-thread\include\rtdebug.h
-.\build\shell.o: rt-thread\include\rtdef.h
-.\build\shell.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\shell.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\shell.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\shell.o: rt-thread\include\rtservice.h
-.\build\shell.o: rt-thread\include\rtm.h
-.\build\shell.o: rt-thread\include\rtthread.h
-.\build\shell.o: rt-thread\components\finsh\finsh.h
-.\build\shell.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\build\shell.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\build\shell.o: rt-thread\components\finsh\shell.h
-.\build\shell.o: rt-thread\components\finsh\msh.h
+./build/shell.o: rt-thread\components\finsh\shell.c \
+  rt-thread\include\rthw.h rt-thread\include\rtthread.h rtconfig.h \
+  rt-thread\include\rtdebug.h rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  rt-thread\components\finsh\shell.h rt-thread\components\finsh\msh.h

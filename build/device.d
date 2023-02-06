@@ -1,12 +1,7 @@
-.\build\device.o: rt-thread\src\device.c
-.\build\device.o: rt-thread\include\rtthread.h
-.\build\device.o: .\rtconfig.h
-.\build\device.o: rt-thread\include\rtdebug.h
-.\build\device.o: rt-thread\include\rtdef.h
-.\build\device.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\device.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\device.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\device.o: rt-thread\include\rtservice.h
-.\build\device.o: rt-thread\include\rtm.h
-.\build\device.o: rt-thread\include\rtthread.h
-.\build\device.o: rt-thread\components\finsh\finsh.h
+./build/device.o: rt-thread\src\device.c rt-thread\include\rtthread.h \
+  rtconfig.h rt-thread\include\rtdebug.h rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h

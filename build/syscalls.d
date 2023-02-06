@@ -1,25 +1,21 @@
-.\build\syscalls.o: rt-thread\components\libc\compilers\armlibc\syscalls.c
-.\build\syscalls.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
-.\build\syscalls.o: rt-thread\include\rtthread.h
-.\build\syscalls.o: .\rtconfig.h
-.\build\syscalls.o: rt-thread\include\rtdebug.h
-.\build\syscalls.o: rt-thread\include\rtdef.h
-.\build\syscalls.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\syscalls.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\syscalls.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\syscalls.o: rt-thread\include\rtservice.h
-.\build\syscalls.o: rt-thread\include\rtm.h
-.\build\syscalls.o: rt-thread\include\rtthread.h
-.\build\syscalls.o: rt-thread\components\finsh\finsh.h
-.\build\syscalls.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\build\syscalls.o: rt-thread\components\libc\compilers\common\extension\fcntl\octal\fcntl.h
-.\build\syscalls.o: rt-thread\components\libc\compilers\common\extension\sys/types.h
-.\build\syscalls.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
-.\build\syscalls.o: rt-thread\components\libc\compilers\common\include\unistd.h
-.\build\syscalls.o: rt-thread\components\libc\compilers\common\include\sys/unistd.h
-.\build\syscalls.o: rt-thread\components\libc\compilers\common\extension\sys/stat.h
-.\build\syscalls.o: rt-thread\components\libc\compilers\common\include\sys/time.h
-.\build\syscalls.o: rt-thread\components\libc\compilers\common\include\compiler_private.h
-.\build\syscalls.o: rt-thread\include\rtdbg.h
-.\build\syscalls.o: rt-thread\components\utilities\ulog\ulog.h
-.\build\syscalls.o: rt-thread\components\utilities\ulog\ulog_def.h
+./build/syscalls.o: \
+  rt-thread\components\libc\compilers\armlibc\syscalls.c \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\rt_sys.h \
+  rt-thread\include\rtthread.h rtconfig.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  rt-thread\components\libc\compilers\common\extension\fcntl\octal\fcntl.h \
+  rt-thread\components\libc\compilers\common\extension\sys\types.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h \
+  rt-thread\components\libc\compilers\common\include\unistd.h \
+  rt-thread\components\libc\compilers\common\include\sys\unistd.h \
+  rt-thread\components\libc\compilers\common\extension\sys\stat.h \
+  rt-thread\components\libc\compilers\common\include\sys\time.h \
+  rt-thread\components\libc\compilers\common\include\compiler_private.h \
+  rt-thread\include\rtdbg.h rt-thread\components\utilities\ulog\ulog.h \
+  rt-thread\components\utilities\ulog\ulog_def.h

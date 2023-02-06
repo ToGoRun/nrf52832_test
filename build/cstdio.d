@@ -1,11 +1,11 @@
-.\build\cstdio.o: rt-thread\components\libc\compilers\common\cstdio.c
-.\build\cstdio.o: rt-thread\components\libc\compilers\common\include\posix/stdio.h
-.\build\cstdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\build\cstdio.o: rt-thread\components\libc\compilers\common\extension\sys/types.h
-.\build\cstdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\cstdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\cstdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
-.\build\cstdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\build\cstdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
-.\build\cstdio.o: rt-thread\components\libc\compilers\common\extension\sys/errno.h
-.\build\cstdio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\errno.h
+./build/cstdio.o: rt-thread\components\libc\compilers\common\cstdio.c \
+  rt-thread\components\libc\compilers\common\include\posix\stdio.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
+  rt-thread\components\libc\compilers\common\extension\sys\types.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\limits.h \
+  rt-thread\components\libc\compilers\common\extension\sys\errno.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\errno.h

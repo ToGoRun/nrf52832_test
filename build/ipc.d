@@ -1,13 +1,7 @@
-.\build\ipc.o: rt-thread\src\ipc.c
-.\build\ipc.o: rt-thread\include\rtthread.h
-.\build\ipc.o: .\rtconfig.h
-.\build\ipc.o: rt-thread\include\rtdebug.h
-.\build\ipc.o: rt-thread\include\rtdef.h
-.\build\ipc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\ipc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\ipc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\ipc.o: rt-thread\include\rtservice.h
-.\build\ipc.o: rt-thread\include\rtm.h
-.\build\ipc.o: rt-thread\include\rtthread.h
-.\build\ipc.o: rt-thread\components\finsh\finsh.h
-.\build\ipc.o: rt-thread\include\rthw.h
+./build/ipc.o: rt-thread\src\ipc.c rt-thread\include\rtthread.h \
+  rtconfig.h rt-thread\include\rtdebug.h rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h rt-thread\include\rthw.h

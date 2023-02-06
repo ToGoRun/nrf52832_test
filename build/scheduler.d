@@ -1,13 +1,8 @@
-.\build\scheduler.o: rt-thread\src\scheduler.c
-.\build\scheduler.o: rt-thread\include\rtthread.h
-.\build\scheduler.o: .\rtconfig.h
-.\build\scheduler.o: rt-thread\include\rtdebug.h
-.\build\scheduler.o: rt-thread\include\rtdef.h
-.\build\scheduler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\scheduler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\scheduler.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\scheduler.o: rt-thread\include\rtservice.h
-.\build\scheduler.o: rt-thread\include\rtm.h
-.\build\scheduler.o: rt-thread\include\rtthread.h
-.\build\scheduler.o: rt-thread\components\finsh\finsh.h
-.\build\scheduler.o: rt-thread\include\rthw.h
+./build/scheduler.o: rt-thread\src\scheduler.c \
+  rt-thread\include\rtthread.h rtconfig.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h rt-thread\include\rthw.h

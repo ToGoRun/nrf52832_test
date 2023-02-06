@@ -15,34 +15,35 @@
 #define DK_BOARD_LED_1  17
 #define DK_BOARD_LED_2  18
 
-static rt_device_t serial;
+/* 中断回调函数 */
+static void test_on(void *args)
+{
+    rt_kprintf("interrupt begain\n");
+}
 
 int main(void)
 {
     int count = 1;
-    char uart_name[] = "uart0";
     char str[] = "RT_Thread\n";
-    serial = rt_device_find(uart_name);
-    if (!serial)
-    {
-        rt_kprintf("find %s failed!\n", uart_name);
-        return RT_ERROR;
-    }
-    rt_device_open(serial, RT_DEVICE_FLAG_INT_RX);
-    rt_device_write(serial, 0, str, (sizeof(str) - 1));
-
     rt_pin_mode(DK_BOARD_LED_1, PIN_MODE_OUTPUT);
     // LOG_I("LOG_Printf_info\n");
     // LOG_D("LOG_Printf_debug\n");
+    // rt_pin_mode(13, PIN_MODE_INPUT_PULLUP);
+    // rt_pin_attach_irq(13, PIN_IRQ_MODE_FALLING, test_on, RT_NULL);
     while (count++)
     {
+        // if(rt_pin_read(13)==PIN_LOW){
+        //     rt_pin_write(DK_BOARD_LED_1, PIN_HIGH);
+        //     rt_pin_write(DK_BOARD_LED_2, PIN_HIGH);
+        //     rt_thread_mdelay(500);
+        // }else{
         rt_pin_write(DK_BOARD_LED_1, PIN_HIGH);
         rt_thread_mdelay(500);
 
         rt_pin_write(DK_BOARD_LED_1, PIN_LOW);
         rt_thread_mdelay(500);
         // LOG_D("LED_used\n");
-        rt_device_write(serial, 0, str, (sizeof(str) - 1));
+        // }
     }
     return RT_EOK;
 }

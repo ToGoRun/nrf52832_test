@@ -1,14 +1,9 @@
-.\build\cmd.o: rt-thread\components\finsh\cmd.c
-.\build\cmd.o: rt-thread\include\rthw.h
-.\build\cmd.o: rt-thread\include\rtthread.h
-.\build\cmd.o: .\rtconfig.h
-.\build\cmd.o: rt-thread\include\rtdebug.h
-.\build\cmd.o: rt-thread\include\rtdef.h
-.\build\cmd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\cmd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\cmd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\cmd.o: rt-thread\include\rtservice.h
-.\build\cmd.o: rt-thread\include\rtm.h
-.\build\cmd.o: rt-thread\include\rtthread.h
-.\build\cmd.o: rt-thread\components\finsh\finsh.h
-.\build\cmd.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+./build/cmd.o: rt-thread\components\finsh\cmd.c rt-thread\include\rthw.h \
+  rt-thread\include\rtthread.h rtconfig.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h

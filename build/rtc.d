@@ -1,18 +1,14 @@
-.\build\rtc.o: rt-thread\components\drivers\rtc\rtc.c
-.\build\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\build\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\build\rtc.o: rt-thread\include\rtthread.h
-.\build\rtc.o: .\rtconfig.h
-.\build\rtc.o: rt-thread\include\rtdebug.h
-.\build\rtc.o: rt-thread\include\rtdef.h
-.\build\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\rtc.o: rt-thread\include\rtservice.h
-.\build\rtc.o: rt-thread\include\rtm.h
-.\build\rtc.o: rt-thread\include\rtthread.h
-.\build\rtc.o: rt-thread\components\finsh\finsh.h
-.\build\rtc.o: rt-thread\components\drivers\include\drivers/rtc.h
-.\build\rtc.o: rt-thread\components\libc\compilers\common\include\sys/time.h
-.\build\rtc.o: rt-thread\components\libc\compilers\common\extension\sys/types.h
-.\build\rtc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+./build/rtc.o: rt-thread\components\drivers\rtc\rtc.c \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
+  rt-thread\include\rtthread.h rtconfig.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  rt-thread\components\drivers\include\drivers\rtc.h \
+  rt-thread\components\libc\compilers\common\include\sys\time.h \
+  rt-thread\components\libc\compilers\common\extension\sys\types.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\time.h

@@ -1,16 +1,12 @@
-.\build\cstring.o: rt-thread\components\libc\compilers\common\cstring.c
-.\build\cstring.o: rt-thread\components\libc\compilers\common\include\posix/string.h
-.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
-.\build\cstring.o: rt-thread\include\rtthread.h
-.\build\cstring.o: .\rtconfig.h
-.\build\cstring.o: rt-thread\include\rtdebug.h
-.\build\cstring.o: rt-thread\include\rtdef.h
-.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\cstring.o: rt-thread\include\rtservice.h
-.\build\cstring.o: rt-thread\include\rtm.h
-.\build\cstring.o: rt-thread\include\rtthread.h
-.\build\cstring.o: rt-thread\components\finsh\finsh.h
-.\build\cstring.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+./build/cstring.o: rt-thread\components\libc\compilers\common\cstring.c \
+  rt-thread\components\libc\compilers\common\include\posix\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\ctype.h \
+  rt-thread\include\rtthread.h rtconfig.h rt-thread\include\rtdebug.h \
+  rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h

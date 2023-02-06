@@ -1,15 +1,11 @@
-.\build\console_be.o: rt-thread\components\utilities\ulog\backend\console_be.c
-.\build\console_be.o: rt-thread\include\rthw.h
-.\build\console_be.o: rt-thread\include\rtthread.h
-.\build\console_be.o: .\rtconfig.h
-.\build\console_be.o: rt-thread\include\rtdebug.h
-.\build\console_be.o: rt-thread\include\rtdef.h
-.\build\console_be.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\build\console_be.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-.\build\console_be.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\build\console_be.o: rt-thread\include\rtservice.h
-.\build\console_be.o: rt-thread\include\rtm.h
-.\build\console_be.o: rt-thread\include\rtthread.h
-.\build\console_be.o: rt-thread\components\finsh\finsh.h
-.\build\console_be.o: rt-thread\components\utilities\ulog\ulog.h
-.\build\console_be.o: rt-thread\components\utilities\ulog\ulog_def.h
+./build/console_be.o: \
+  rt-thread\components\utilities\ulog\backend\console_be.c \
+  rt-thread\include\rthw.h rt-thread\include\rtthread.h rtconfig.h \
+  rt-thread\include\rtdebug.h rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  rt-thread\include\rtservice.h rt-thread\include\rtm.h \
+  rt-thread\components\finsh\finsh.h \
+  rt-thread\components\utilities\ulog\ulog.h \
+  rt-thread\components\utilities\ulog\ulog_def.h
