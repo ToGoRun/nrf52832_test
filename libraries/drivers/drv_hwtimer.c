@@ -278,7 +278,7 @@ static rt_uint32_t timer_counter_get(rt_hwtimer_t *timer)
 
     // capture method will copy the current counter register to the specified cc channel (here is NRF_TIMER_CC_CHANNEL5).
     // the specified cc channel cannot be same with the already used cc channels
-    count = nrfx_timer_capture(&(timer_info->timer_inst), NRF_TIMER_CC_CHANNEL5);
+    count = nrfx_timer_capture(&(timer_info->timer_inst), NRF_TIMER_CC_CHANNEL1);
     return count;
 }
 
